@@ -1,8 +1,3 @@
-# Ignore everything in this directory
-*
-# Except this file
-!.gitignore
-
 # Created by .ignore support plugin (hsz.mobi)
 ### Java template
 # Compiled class file
@@ -41,4 +36,5 @@ buildNumber.properties
 
 # Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
 !/.mvn/wrapper/maven-wrapper.jar
-*.idea/
+.idea/
+redis-client/.idea/
