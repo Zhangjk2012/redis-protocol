@@ -116,7 +116,7 @@ class NettyTransport {
 
 }
 
-class RedisHandler extends ChannelInboundHandlerAdapter{
+class RedisHandler extends ChannelInboundHandlerAdapter {
   override def channelActive(ctx: ChannelHandlerContext): Unit = {
     println(s"======= ${ctx.channel().remoteAddress()}")
     new Thread(()=> {
